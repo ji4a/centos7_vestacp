@@ -1,4 +1,3 @@
 Download and Execute the install script on a fresh clean Centos 7 install -> CentOS-7-x86_64-Minimal-2207-02.iso
 
-curl -O https://raw.githubusercontent.com/ji4a/centos7_vestacp/main/install.sh
-bash install.sh
+curl -sL https://raw.githubusercontent.com/ji4a/centos7_vestacp/main/install.sh | bash
