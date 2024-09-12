@@ -37,7 +37,6 @@ enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 EOF
 
-# Print a message indicating success
 echo "Repo file created at $REPO_FILE"
 
 yum clean all
