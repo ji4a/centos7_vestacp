@@ -1,11 +1,15 @@
+###################################
+### INSTALL VESTACP ON CENTOS7 ####
+###################################
 #!/bin/bash
 
+# Remove the current REPO
 rm -rf /etc/yum.repos.d/CentOS-Base.repo
 
 # Define the file path
 REPO_FILE="/etc/yum.repos.d/CentOS-Base.repo"
 
-# Create the file and add the content
+# Create the new REPO and add the content
 cat <<EOF > "$REPO_FILE"
 [base]
 name=CentOS-7 - Base
